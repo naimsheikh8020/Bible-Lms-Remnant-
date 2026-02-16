@@ -75,7 +75,7 @@ const Navbar = () => {
 
           <div ref={dropdownRef} className="relative">
             <button
-              onClick={() => setShowProgramDropdown(!showProgramDropdown)}
+              onClick={() => setShowProgramDropdown((x) => !x)}
               className={`flex items-center gap-1 hover:text-cyan-500 transition-colors cursor-pointer ${
                 isProgramActive ? "text-cyan-500 font-semibold" : ""
               }`}
@@ -192,6 +192,9 @@ const Navbar = () => {
             Sign Up
           </Link>
         </div>
+
+
+
 
         {/* Mobile Menu Button */}
         <button
