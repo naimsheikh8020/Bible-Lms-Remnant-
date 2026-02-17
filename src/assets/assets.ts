@@ -13,6 +13,13 @@ import LearnAttendLiveClasses from "./LearnAttendLiveClasses.svg"
 import SignUpandCreateAccount from "./SignUpandCreateAccount.svg"
 import Track_Progress from "./Track_Progress.svg"
 import trackProgress_Netwrok from "./trackProgress_Network.svg"
+import Boy from "./Boy.svg"
+import Women from "./Women.png"
+import Avatar1 from "./Avatar1.svg"
+import Avatar2 from "./Avatar2.svg"
+import Avatar3 from "./Avatar3.svg"
+
+
 export const assets = {
   HeroImg,
   loginImg,
@@ -28,5 +35,10 @@ export const assets = {
   LearnAttendLiveClasses,
   SignUpandCreateAccount,
   Track_Progress,
-  trackProgress_Netwrok
+  trackProgress_Netwrok,
+  Boy,
+  Women,
+  Avatar1,
+  Avatar2,
+  Avatar3,
 }
