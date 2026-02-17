@@ -23,6 +23,8 @@ import Live from "./Live.svg"
 import AI from "./AI.svg"
 import Personalized from "./Personalized.svg"
 import Progress from "./Progress.svg"
+import Icon_Exprience from "./Icon_Exprience.svg"
+
 export const assets = {
   HeroImg,
   loginImg,
@@ -49,6 +51,7 @@ export const assets = {
   AI,
   Personalized,
   Progress,
+  Icon_Exprience
 }
 
 
@@ -88,5 +91,47 @@ export const coreFeatures = [
     title: "Personalized Learning",
     description: "Adaptive content based on age and progress",
     img: assets.Personalized,
+  },
+];
+
+export const ageBasedLearningData = [
+  {
+    id: 1,
+    title: "Kids",
+    ageRange: "5–12",
+    accentColor: "bg-orange-400",
+    borderColor: "border-cyan-400",
+    bgColor: "bg-orange-50",
+    features: [
+      "Interactive stories",
+      "Fun quizzes",
+      "Visual learning",
+    ],
+  },
+  {
+    id: 2,
+    title: "Teens",
+    ageRange: "13–18",
+    accentColor: "bg-cyan-500",
+    borderColor: "border-cyan-400",
+    bgColor: "bg-orange-50",
+    features: [
+      "Discussion forums",
+      "Project-based learning",
+      "Peer collaboration",
+    ],
+  },
+  {
+    id: 3,
+    title: "Young Adults",
+    ageRange: "19–25",
+    accentColor: "bg-purple-500",
+    borderColor: "border-cyan-400",
+    bgColor: "bg-orange-50",
+    features: [
+      "In-depth theology",
+      "Leadership training",
+      "Career guidance",
+    ],
   },
 ];

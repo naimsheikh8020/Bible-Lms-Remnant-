@@ -1,4 +1,5 @@
 import AIPromoSection from "../../Components/AIPromoSection";
+import AgeBasedLearningExprience from "./HomeSection/AgeBasedLearningExprience";
 import AudienceSection from "./HomeSection/AudienceSection";
 import CoreFeaturesSection from "./HomeSection/CoreFeaturesSection";
 import HeroSection from "./HomeSection/HeroSection";
@@ -13,6 +14,7 @@ const Home = () => {
       <AIPromoSection/>
       <HowItWorksSection/>
       <CoreFeaturesSection/>
+      <AgeBasedLearningExprience/>
     </>
   );
 };
