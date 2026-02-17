@@ -11,8 +11,8 @@ const AudienceSection = () => {
         Tailored experiences for every role in the learning journey
       </p>
       <div>
-        <div className="grid gap-6 md:grid-cols-3">
-          
+        <div className="grid gap-6 md:gap-3 md:grid-cols-3">
+
           <AudienceCard title="Students (5–25 years)" description="Interactive courses, live classes, and personalized AI guidance for spiritual and academic growth" img={assets.Student}/>
           <AudienceCard title="Teachers & Mentors" description="Create courses, manage live classes, and track student progress with powerful tools" img={assets.Teacher}/>
           <AudienceCard title="Admin & Foundation Team" description="Comprehensive ERP system for managing users, courses, and analytics" img={assets.Admin}/>
