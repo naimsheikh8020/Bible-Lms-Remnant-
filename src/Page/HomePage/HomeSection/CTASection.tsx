@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const CTASection = () => {
   return (
     <div className="mb-8 md:mb-16 px-4 md:px-0">
@@ -18,17 +20,23 @@ const CTASection = () => {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
-            <button className="w-full sm:w-auto px-6 py-3 rounded-xl bg-purple-400 text-white font-medium hover:bg-purple-500 transition duration-300">
+            <Link to="/login">
+            <button className="w-full cursor-pointer sm:w-auto px-6 py-3 rounded-xl bg-purple-400 text-white font-medium hover:bg-purple-500 transition duration-300">
               Start Learning
             </button>
+            </Link>
 
-            <button className="w-full sm:w-auto px-6 py-3 rounded-xl border border-cyan-500 text-cyan-600 font-medium hover:bg-cyan-50 transition duration-300">
+            <Link to="/signup">
+            <button className="w-full cursor-pointer sm:w-auto px-6 py-3 rounded-xl border border-cyan-500 text-cyan-600 font-medium hover:bg-cyan-50 transition duration-300">
               Become a Teacher
             </button>
+            </Link>
 
-            <button className="w-full sm:w-auto px-6 py-3 rounded-xl border border-cyan-500 text-cyan-600 font-medium hover:bg-cyan-50 transition duration-300">
+            <Link to="/contact">
+            <button className="w-full cursor-pointer sm:w-auto px-6 py-3 rounded-xl border border-cyan-500 text-cyan-600 font-medium hover:bg-cyan-50 transition duration-300">
               Contact Admin
             </button>
+            </Link>
           </div>
         </div>
       </div>
