@@ -1,8 +1,9 @@
-import React from 'react'
 
 const CoreFeaturesSection = () => {
   return (
-    <div>CoreFeaturesSection</div>
+    <div>
+      <h1>Core Features Section</h1>
+    </div>
   )
 }
 

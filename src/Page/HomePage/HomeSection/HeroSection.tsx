@@ -8,8 +8,8 @@ const HeroSection = () => {
       <div className="flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-12 mt-6 lg:mt-10">
         {/* Left Side */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight lg:leading-snug">
-            A Modern Learning & Spiritual Growth
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight lg:leading-snug">
+            A Modern Learning & <br/> Spiritual Growth
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-600">
             Learn, grow, and stay spiritually connected—anytime, anywhere.
