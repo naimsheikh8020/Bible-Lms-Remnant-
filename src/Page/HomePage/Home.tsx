@@ -1,3 +1,4 @@
+import AIPromoSection from "../../Components/AIPromoSection";
 import AudienceSection from "./HomeSection/AudienceSection";
 import HeroSection from "./HomeSection/HeroSection";
 
@@ -5,10 +6,9 @@ import HeroSection from "./HomeSection/HeroSection";
 const Home = () => {
   return (
     <>
-      {/* Hero Section */}
       <HeroSection/>
-      {/* Audience Section */}
       <AudienceSection/>
+      <AIPromoSection/>
     </>
   );
 };

@@ -1,8 +1,4 @@
-interface AudienceCardProps {
-  title: string;
-  description: string;
-  img: string;
-}
+import type { AudienceCardProps } from "../types/AudienceCardProps";
 
 const AudienceCard = ({ title, description, img }: AudienceCardProps) => {
   return (
