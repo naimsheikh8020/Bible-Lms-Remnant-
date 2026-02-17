@@ -3,7 +3,7 @@ import AudienceCard from "../../../Components/AudienceCard";
 
 const AudienceSection = () => {
   return (
-    <div className="text-center py-8">
+    <div className="text-center py-8 mt-6">
       <h2 className="text-4xl font-bold mb-4 mt-4">
         Who Is This Platform For?
       </h2>
