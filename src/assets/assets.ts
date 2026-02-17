@@ -18,8 +18,11 @@ import Women from "./Women.png"
 import Avatar1 from "./Avatar1.svg"
 import Avatar2 from "./Avatar2.svg"
 import Avatar3 from "./Avatar3.svg"
-
-
+import Course from './Course.svg'
+import Live from "./Live.svg"
+import AI from "./AI.svg"
+import Personalized from "./Personalized.svg"
+import Progress from "./Progress.svg"
 export const assets = {
   HeroImg,
   loginImg,
@@ -41,4 +44,49 @@ export const assets = {
   Avatar1,
   Avatar2,
   Avatar3,
+  Course,
+  Live,
+  AI,
+  Personalized,
+  Progress,
 }
+
+
+export const coreFeatures = [
+  {
+    id: 1,
+    title: "Courses & Quizzes",
+    description: "Age-appropriate courses with interactive assessments",
+    img: assets.Course,
+  },
+  {
+    id: 2,
+    title: "Live Classes",
+    description: "Real-time interaction with teachers and mentors",
+    img: assets.Live,
+  },
+  {
+    id: 3,
+    title: "AI Spiritual Guide",
+    description: "Personalized Bible verses and spiritual guidance",
+    img: assets.AI,
+  },
+  {
+    id: 4,
+    title: "Progress Tracking",
+    description: "Monitor academic and spiritual growth",
+    img: assets.Progress,
+  },
+  {
+    id: 5,
+    title: "Admin ERP System",
+    description: "Comprehensive management and analytics",
+    img: assets.Admin,
+  },
+  {
+    id: 6,
+    title: "Personalized Learning",
+    description: "Adaptive content based on age and progress",
+    img: assets.Personalized,
+  },
+];
