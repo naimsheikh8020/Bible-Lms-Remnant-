@@ -135,3 +135,22 @@ export const ageBasedLearningData = [
     ],
   },
 ];
+
+
+export const trustStats = [
+  {
+    id: 1,
+    value: "5,000+",
+    label: "Active Students",
+  },
+  {
+    id: 2,
+    value: "200+",
+    label: "Expert Teachers",
+  },
+  {
+    id: 3,
+    value: "95%",
+    label: "Satisfaction Rate",
+  },
+];

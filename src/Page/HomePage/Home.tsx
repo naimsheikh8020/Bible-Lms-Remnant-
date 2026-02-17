@@ -4,6 +4,7 @@ import AudienceSection from "./HomeSection/AudienceSection";
 import CoreFeaturesSection from "./HomeSection/CoreFeaturesSection";
 import HeroSection from "./HomeSection/HeroSection";
 import HowItWorksSection from "./HomeSection/HowItWorksSection";
+import TrustSection from "./HomeSection/TrustSection";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <HowItWorksSection/>
       <CoreFeaturesSection/>
       <AgeBasedLearningExprience/>
+      <TrustSection/>
     </>
   );
 };
