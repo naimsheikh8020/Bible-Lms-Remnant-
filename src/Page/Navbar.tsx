@@ -53,7 +53,7 @@ const Navbar = () => {
   }, [showMobileMenu]);
 
   return (
-    <nav className="bg-white shadow-sm">
+    <nav className="bg-white shadow-sm fixed top-0 left-0 right-0 z-50">
       <div className="flex items-center justify-between px-4 md:px-8 py-4">
         {/* Logo */}
         <div className="logo">
@@ -192,9 +192,6 @@ const Navbar = () => {
             Sign Up
           </Link>
         </div>
-
-
-
 
         {/* Mobile Menu Button */}
         <button
