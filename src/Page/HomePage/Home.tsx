@@ -1,3 +1,4 @@
+import AudienceSection from "./HomeSection/AudienceSection";
 import HeroSection from "./HomeSection/HeroSection";
 
 
@@ -6,6 +7,8 @@ const Home = () => {
     <>
       {/* Hero Section */}
       <HeroSection/>
+      {/* Audience Section */}
+      <AudienceSection/>
     </>
   );
 };
