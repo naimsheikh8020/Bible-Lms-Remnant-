@@ -1,4 +1,4 @@
-import { assets, coreFeatures } from "../../../assets/assets";
+import {  coreFeatures } from "../../../assets/assets";
 import CoreFeaturesSectionCard from "../../../Components/CoreFeaturesSectionCard";
 
 const CoreFeaturesSection = () => {
