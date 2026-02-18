@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 const SkillDevelopmentHeader = () => {
   return (
-    <section className="w-full bg-gray-50 border border-gray-200 rounded-xl">
+    <section className="w-full border-b border-gray-200 bg-gray-50 rounded-xl">
       <div className="max-w-4xl mx-auto text-center px-6 py-20">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
           Skills Development School
@@ -16,7 +16,7 @@ const SkillDevelopmentHeader = () => {
         </p>
 
         <div className="mt-10">
-          <Link to="/login"><button className="px-8 py-3 cursor-pointer bg-[#2DA8C6] hover:bg-[#2493AF] text-white text-sm font-medium rounded-lg transition duration-300">
+          <Link to="/login"><button className="px-8 py-3 cursor-pointer bg-cyan-600 hover:bg-cyan-700 text-white text-sm font-medium rounded-lg transition duration-300">
             Enroll Now
           </button></Link>
         </div>

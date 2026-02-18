@@ -24,6 +24,7 @@ import AI from "./AI.svg"
 import Personalized from "./Personalized.svg"
 import Progress from "./Progress.svg"
 import Icon_Exprience from "./Icon_Exprience.svg"
+import handShackImg from "./handshackImg.svg"
 
 export const assets = {
   HeroImg,
@@ -51,7 +52,8 @@ export const assets = {
   AI,
   Personalized,
   Progress,
-  Icon_Exprience
+  Icon_Exprience,
+  handShackImg,
 }
 
 
