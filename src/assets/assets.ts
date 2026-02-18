@@ -35,10 +35,12 @@ import getCertificate from "./getCertificate.svg"
 import PracticeTest from "./PracticeTest.svg"
 import joinClass from "./JoinClass.svg"
 import search from "./search.svg"
+import Certificate from "./Certificate.svg"
 
 
 export const assets = {
   Img01,
+  Certificate,
   HeroImg,
   loginImg,
   Logo,
