@@ -29,6 +29,12 @@ import kidsProgram from "./KidsProgram.svg"
 import TeamsProgram from "./TeamsProgram.svg"
 import YoungAdultsProgram from "./YoungAdultsProgram.svg"
 import Img01 from "./Img01.svg"
+import Mentorship from "./Mentorship.svg"
+import Career from "./Career.svg"
+import getCertificate from "./getCertificate.svg"
+import PracticeTest from "./PracticeTest.svg"
+import joinClass from "./JoinClass.svg"
+import search from "./search.svg"
 
 
 export const assets = {
@@ -63,6 +69,12 @@ export const assets = {
   kidsProgram,
   TeamsProgram,
   YoungAdultsProgram,
+  Mentorship,
+  Career,
+  getCertificate,
+  PracticeTest,
+  joinClass,
+  search
 }
 
 
