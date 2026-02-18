@@ -1,5 +1,5 @@
 import { assets } from "../../../assets/assets";
-import { BookOpen, Check } from "lucide-react";
+import { BookOpen } from "lucide-react";
 
 const bulletPoints = [
   "Build job-ready skills that employers are actively seeking in today’s market.",
@@ -10,7 +10,7 @@ const bulletPoints = [
 
 const WhyChooseUsSection = () => {
   return (
-    <section className="w-full  py-8 md:py-16">
+    <section className="w-full  py-8 md:py-16 ">
       <div className="max-w-7xl mx-auto px-6">
         
         <div className="flex flex-col lg:flex-row items-center">
@@ -48,11 +48,11 @@ const WhyChooseUsSection = () => {
           </div>
 
           {/* RIGHT SIDE */}
-          <div className="w-full lg:w-[45%] flex justify-center lg:justify-end mt-16 lg:mt-0">
+          <div className="w-full lg:w-[45%]  flex justify-center lg:justify-end mt-16 lg:mt-0">
             <img
               src={assets.handShackImg}
               alt="Skills Development Illustration"
-              className="w-[420px] max-w-full object-contain"
+              className=" max-w-full  object-contain"
             />
           </div>
 

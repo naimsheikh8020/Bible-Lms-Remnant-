@@ -25,6 +25,10 @@ import Personalized from "./Personalized.svg"
 import Progress from "./Progress.svg"
 import Icon_Exprience from "./Icon_Exprience.svg"
 import handShackImg from "./handshackImg.svg"
+import kidsProgram from "./KidsProgram.svg"
+import TeamsProgram from "./TeamsProgram.svg"
+import YoungAdultsProgram from "./YoungAdultsProgram.svg"
+
 
 export const assets = {
   HeroImg,
@@ -54,6 +58,9 @@ export const assets = {
   Progress,
   Icon_Exprience,
   handShackImg,
+  kidsProgram,
+  TeamsProgram,
+  YoungAdultsProgram,
 }
 
 
@@ -154,5 +161,43 @@ export const trustStats = [
     id: 3,
     value: "95%",
     label: "Satisfaction Rate",
+  },
+];
+
+
+export const programs = [
+  {
+    img: assets.kidsProgram,
+    title: "Kids Program",
+    ageRange: "Ages 6–10",
+    description:
+      "Creative exploration and foundational learning through fun, interactive activities,for future readiness.",
+    skills: ["Creative Thinking", "Teamwork", "Basic Tech", "Problem Solving"],
+  },
+  {
+    img: assets.TeamsProgram,
+    title: "Teens Program",
+    ageRange: "Ages 14–17",
+    description:
+      "Advanced technical skills, career exploration, and personal development for future readiness.",
+    skills: [
+      "Web Development",
+      "AI & ML",
+      "Entrepreneurship",
+      "Public Speaking",
+    ],
+  },
+  {
+    img: assets.YoungAdultsProgram,
+    title: "Young Adults Program",
+    ageRange: "Ages 18–25",
+    description:
+      "Career-focused training and professional skill development to prepare for the modern workforce.",
+    skills: [
+      "Full-Stack Dev",
+      "Data Science",
+      "Career Planning",
+      "Freelancing",
+    ],
   },
 ];
