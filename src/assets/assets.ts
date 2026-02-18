@@ -28,9 +28,11 @@ import handShackImg from "./handshackImg.svg"
 import kidsProgram from "./KidsProgram.svg"
 import TeamsProgram from "./TeamsProgram.svg"
 import YoungAdultsProgram from "./YoungAdultsProgram.svg"
+import Img01 from "./Img01.svg"
 
 
 export const assets = {
+  Img01,
   HeroImg,
   loginImg,
   Logo,
