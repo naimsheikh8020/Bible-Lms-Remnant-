@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 const SkillDevelopmentHeader = () => {
   return (
-    <section className="w-full bg-[#F3F4F6]">
+    <section className="w-full bg-gray-50 border border-gray-200 rounded-xl">
       <div className="max-w-4xl mx-auto text-center px-6 py-20">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
           Skills Development School
