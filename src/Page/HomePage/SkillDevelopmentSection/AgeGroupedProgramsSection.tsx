@@ -1,9 +1,12 @@
+import { useNavigate } from "react-router";
 import {  programs } from "../../../assets/assets";
 import ProgramCard from "../../../Components/ProgramCard";
 
 
 
 const AgeGroupedProgramsSection = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
       <div className="text-center mb-10">
@@ -21,7 +24,7 @@ const AgeGroupedProgramsSection = () => {
           <ProgramCard
             key={program.title}
             {...program}
-            onClick={() => console.log(`Navigate to ${program.title}`)}
+            onClick={() => navigate("/course")}
           />
         ))}
       </div>
