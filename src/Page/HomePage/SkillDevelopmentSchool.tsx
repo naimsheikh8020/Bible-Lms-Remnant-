@@ -9,7 +9,7 @@ import WhyChooseUsSection from "./SkillDevelopmentSection/WhyChooseUsSection"
 
 const SkillDevelopmentSchool = () => {
   return (
-    <div>
+    <div >
       <SkillDevelopmentHeader/>
       <WhyChooseUsSection/>
       <AgeGroupedProgramsSection/>
