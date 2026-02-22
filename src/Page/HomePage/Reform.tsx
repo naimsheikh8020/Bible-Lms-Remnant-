@@ -1,8 +1,11 @@
+import ReformHeader from "./ReformSection/ReformHeader"
 
 
 const Reform = () => {
   return (
-    <div>Reform</div>
+    <div>
+      <ReformHeader/>
+    </div>
   )
 }
 
