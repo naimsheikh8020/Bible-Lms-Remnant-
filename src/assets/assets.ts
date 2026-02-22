@@ -44,10 +44,12 @@ import MentorShipCommunity from "./MentorShipCommunity.svg"
 import SpiritualFoundation from "./SpiritualFoundation.svg"
 import Transformation from "./Transformation.svg"
 import YouthLosing from "./YouthLosing.png"
+import ourMission from "./OurMission.png"
 
 
 export const assets = {
   Img01,
+  ourMission,
   Certificate,
   HeroImg,
   loginImg,

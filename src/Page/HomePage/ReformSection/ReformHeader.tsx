@@ -1,7 +1,7 @@
 
 const ReformHeader = () => {
   return (
-    <section className="w-full bg-[#FAFAFA] py-20 px-4 border border-gray-200 rounded-lg shadow-sm">
+    <section className="w-full bg-[#FAFAFA] mt-6 md:mt-16 py-20 px-4 border border-gray-200 rounded-lg shadow-sm">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-black leading-tight">
           Reforming Lives Through Faith,
