@@ -36,6 +36,14 @@ import PracticeTest from "./PracticeTest.svg"
 import joinClass from "./JoinClass.svg"
 import search from "./search.svg"
 import Certificate from "./Certificate.svg"
+import DigitalDistraction from "./DigitalDistraction.svg"
+import EducationDevelopment from "./EducationDevelopment.svg"
+import LackOfStructured from "./LackOfStructured.svg"
+import LimitedMentorShip from "./LimitedMentorShip.svg"
+import MentorShipCommunity from "./MentorShipCommunity.svg"
+import SpiritualFoundation from "./SpiritualFoundation.svg"
+import Transformation from "./Transformation.svg"
+import YouthLosing from "./YouthLosing.png"
 
 
 export const assets = {
@@ -76,7 +84,15 @@ export const assets = {
   getCertificate,
   PracticeTest,
   joinClass,
-  search
+  search,
+  DigitalDistraction,
+  EducationDevelopment,
+  LackOfStructured,
+  LimitedMentorShip,
+  MentorShipCommunity,
+  SpiritualFoundation,
+  Transformation,
+  YouthLosing
 }
 
 
