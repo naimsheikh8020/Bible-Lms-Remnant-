@@ -1,3 +1,4 @@
+import FinalCTASection from "./ReformSection/FinalCTASection"
 import InnovationSection from "./ReformSection/InnovationSection"
 import JoinReformMovement from "./ReformSection/JoinReformMovement"
 import OurApproachSection from "./ReformSection/OurApproachSection"
@@ -17,6 +18,7 @@ const Reform = () => {
       <InnovationSection/>
       <ReformReview/>
       <JoinReformMovement/>
+      <FinalCTASection/>
     </div>
   )
 }
