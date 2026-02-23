@@ -1,4 +1,5 @@
 import InnovationSection from "./ReformSection/InnovationSection"
+import JoinReformMovement from "./ReformSection/JoinReformMovement"
 import OurApproachSection from "./ReformSection/OurApproachSection"
 import ReformHeader from "./ReformSection/ReformHeader"
 import ReformNeedSection from "./ReformSection/ReformNeedSection"
@@ -15,6 +16,7 @@ const Reform = () => {
       <OurApproachSection />
       <InnovationSection/>
       <ReformReview/>
+      <JoinReformMovement/>
     </div>
   )
 }
