@@ -3,7 +3,6 @@ import {
   TrendingUp,
   BarChart3,
   Video,
-  MessageCircle,
   BarChart2,
 } from "lucide-react";
 

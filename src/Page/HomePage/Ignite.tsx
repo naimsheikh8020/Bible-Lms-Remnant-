@@ -1,6 +1,10 @@
+import IgniteHearder from "./IgniteSection/IgniteHearder"
+
 const Ignite = () => {
   return (
-    <div>Ignite</div>
+    <div>
+      <IgniteHearder/>
+    </div>
   )
 }
 
