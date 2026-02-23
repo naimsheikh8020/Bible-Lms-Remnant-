@@ -46,6 +46,8 @@ import Transformation from "./Transformation.svg"
 import YouthLosing from "./YouthLosing.png"
 import ourMission from "./OurMission.png"
 import type { Review } from '../types/Reviews'
+import FaithImg from "./FaithImg.svg"
+import Spritualimg from "./Spritualimg.png"
 
 
 export const assets = {
@@ -95,7 +97,9 @@ export const assets = {
   MentorShipCommunity,
   SpiritualFoundation,
   Transformation,
-  YouthLosing
+  YouthLosing,
+  FaithImg,
+  Spritualimg
 }
 
 
