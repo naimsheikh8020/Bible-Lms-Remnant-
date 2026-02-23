@@ -4,7 +4,7 @@ const FinalCTASection = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="py-10 ">
+    <section className="py-10 md:py-20">
       <div className="w-full  mx-auto px-6">
         
         <div className="bg-[#fafafa] rounded-3xl py-16 md:py-20 px-6 md:px-12 text-center shadow-lg">
