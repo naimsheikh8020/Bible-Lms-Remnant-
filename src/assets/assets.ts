@@ -45,6 +45,7 @@ import SpiritualFoundation from "./SpiritualFoundation.svg"
 import Transformation from "./Transformation.svg"
 import YouthLosing from "./YouthLosing.png"
 import ourMission from "./OurMission.png"
+import type { Review } from '../types/Reviews'
 
 
 export const assets = {
@@ -233,5 +234,37 @@ export const programs = [
       "Career Planning",
       "Freelancing",
     ],
+  },
+];
+
+
+export const reviews: Review[] = [
+  {
+    id: 1,
+    image: "https://randomuser.me/api/portraits/women/65.jpg",
+    name: "Sarah M.",
+    age: 16,
+    location: "USA",
+    before: "Struggling with identity and feeling lost in a digital world",
+    after:
+      "Found purpose in Christ and now leads a youth prayer group",
+    quote:
+      "The Reform program helped me discover who I truly am in Christ. I went from feeling purposeless to leading others in faith.",
+    transformation:
+      "From confusion to clarity, from isolation to community leadership",
+  },
+  {
+    id: 2,
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    name: "Daniel R.",
+    age: 18,
+    location: "Canada",
+    before: "Disconnected from faith and struggling spiritually",
+    after:
+      "Built strong spiritual habits and mentors younger students",
+    quote:
+      "This journey reshaped my life. I now walk with purpose and confidence.",
+    transformation:
+      "From doubt to conviction, from drifting to direction",
   },
 ];
