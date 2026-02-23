@@ -48,10 +48,12 @@ import ourMission from "./OurMission.png"
 import type { Review } from '../types/Reviews'
 import FaithImg from "./FaithImg.svg"
 import Spritualimg from "./Spritualimg.png"
+import Search01 from "./Search01.png"
 
 
 export const assets = {
   Img01,
+  Search01,
   ourMission,
   Certificate,
   HeroImg,
