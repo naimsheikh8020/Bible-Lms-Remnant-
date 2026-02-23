@@ -78,8 +78,7 @@ const JoinReformMovement = () => {
               {/* Button */}
               <button
                 onClick={() => navigate(card.route)}
-                className="w-full h-12 mt-8 cursor-pointer bg-[#26A9D3] hover:bg-[#1f5f78] text-white rounded-lg text-sm font-medium transition-colors duration-300"
-              >
+                className="w-full h-12 mt-8 cursor-pointer bg-[#26A9D3] hover:bg-[#1f5f78] text-white rounded-lg text-sm font-medium transition-colors duration-300">
                 {card.buttonText}
               </button>
             </div>
