@@ -3,7 +3,7 @@ import { Flame } from "lucide-react";
 
 const IgniteHeader = () => {
   return (
-    <section className="w-full py-24">
+    <section className="w-full pt-20">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         
         {/* LEFT CONTENT */}

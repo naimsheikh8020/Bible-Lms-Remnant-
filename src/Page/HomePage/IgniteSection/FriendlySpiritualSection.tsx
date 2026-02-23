@@ -3,7 +3,7 @@ import { Heart, BookOpen, Compass, Users } from "lucide-react";
 
 const FriendlySpiritualSection = () => {
   return (
-    <section className="w-full ">
+    <section className="w-full pt-4 md:pt-20">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2  items-center">
         
         {/* LEFT IMAGE */}
