@@ -8,7 +8,7 @@ const ReformNeedSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Reform is Needed</h2>
         <p className="text-gray-500 mt-2 text-base">Today's generation faces unprecedented spiritual challenges that demand intentional, compassionate intervention.</p>
       </div>
-      <div className="grid  md:grid-cols-4 gap-8 mt-8">
+      <div className="grid lg:grid-cols-4  md:grid-cols-2 gap-8 mt-8">
         <ReformNeedCard
         icon={<img src={assets.YouthLosing}/>}
         title="Youth Losing Spiritual Direction"
